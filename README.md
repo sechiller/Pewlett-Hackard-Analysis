@@ -4,35 +4,32 @@ Module 7
 ## Overview of Pewlett-Hackard Analysis
 
 ### Purpose
-Overview of the analysis: Explain the purpose of this analysis.
-  For this project, the school board has notified Maria and her supervisor that the reading and math grades for Thomas High School(THS) are suspect and may have been altered. The goal of this analysis is to update the data analysis already completed so that the values associated with 9th grade reading and math scores are updated with NaNs. This will prevent the tampered scores from skewing the results. 
+
+  For this project, the Pewlett-Hackard has given Bobby and myself the assignment to   determine the number of retiring employees per title, and identify employees who are eligible to participate in a mentorship program. A report is also provided to present the data and help Bobby's manager for the coming surge of retirments. 
+ 
   
 ## Pewlett-Hackard Analysis Results
 Results: Provide a bulleted list with four major points from the two analysis deliverables. Use images as support where needed.
-* Total Students did not change. When calculating the % passed scores for math and reading, we did use a modified count that did not include the 461 9th grade students from THS. 
-* Total budget and total number of schools did not change. 
-* Average math score decreased from 81.87784 to 81.85579.
-* Average reading score decreased from 78.98537 78.93053.
-* Percentage of students who passed math decreased from 74.98085 to 74.76039.
-* Percentage of students who passed reading decreased from 85.80546 85.65967.
-* Overall passing percentage decreased from 65.17236 to 64.85572.
+* 25,916 Senior Engineers are eligible to retire.
+* 24,926 Senior Staff are eligible to retire. 
+
+![image](https://user-images.githubusercontent.com/103475613/170876398-72e6528d-f6b1-4b07-8d48-4d1be4d93a39.png)
+
+* 303 Senior Engineers (and 382 Engineers) are eligible to provide mentorship.
+* 416 Senior Staff are eligible to provide menrorship. 
+
+![image](https://user-images.githubusercontent.com/103475613/170876574-9fd3e674-121d-4ed6-922b-4a236be437b4.png)
 
 
 ## Pewlett-Hackard Analysis Summary
 
-Summary: Provide high-level responses to the following questions, then provide two additional queries or tables that may provide more insight into the upcoming "silver tsunami."
-How many roles will need to be filled as the "silver tsunami" begins to make an impact?
-Are there enough qualified, retirement-ready employees in the departments to mentor the next generation of Pewlett Hackard employees?
-The largest changes to the data are seen in looking at data summarized at the school level and the grade level and focusing on THS and the 9th grade. When looking at the THS ninth grade reading scores you now seen NaN instead of 83.72885. When looking at te THS ninth grade math scores, you now see NaN instead of 83.59002.
+72,458 roles will need to be filled as the "silver tsunami" begins to make an impact.
 
-Math Scores, updated : !
-Reading Scores, updated : 
+![image](https://user-images.githubusercontent.com/103475613/170876765-43995453-8197-4db3-a761-8a689d444243.png)
 
-Another important thing to note is in the slight changes to the data that is grouped by spending ranges by student and school size. THS has 1635 total students and a per student budget of $638.00. By excluding the scores, the average scores in the Medium (1000 - 1999) school size and $631 - 645 spending per student groupings went down slightly. When rounding to the nearest tenth, you will not see these differences as they are very minor.
+There are 1,549 employees eligible to provide mentorship. This is not enough qualified, retirement-ready employees to mentor the next generation of more than 200,000 Pewlett Hackard employees.
 
-Spending Ranges, updated, not rounded:
+![image](https://user-images.githubusercontent.com/103475613/170876884-200be3e9-1748-4e84-a1fb-0cbe09044db0.png)
 
-
-School Size, updated, not rounded:
 
 
