@@ -4,10 +4,11 @@ Module 7
 ## Overview of Pewlett-Hackard Analysis
 
 ### Purpose
+Overview of the analysis: Explain the purpose of this analysis.
   For this project, the school board has notified Maria and her supervisor that the reading and math grades for Thomas High School(THS) are suspect and may have been altered. The goal of this analysis is to update the data analysis already completed so that the values associated with 9th grade reading and math scores are updated with NaNs. This will prevent the tampered scores from skewing the results. 
   
-## School District Analysis Results
-
+## Pewlett-Hackard Analysis Results
+Results: Provide a bulleted list with four major points from the two analysis deliverables. Use images as support where needed.
 * Total Students did not change. When calculating the % passed scores for math and reading, we did use a modified count that did not include the 461 9th grade students from THS. 
 * Total budget and total number of schools did not change. 
 * Average math score decreased from 81.87784 to 81.85579.
@@ -17,8 +18,11 @@ Module 7
 * Overall passing percentage decreased from 65.17236 to 64.85572.
 
 
-## School District Analysis Summary
+## Pewlett-Hackard Analysis Summary
 
+Summary: Provide high-level responses to the following questions, then provide two additional queries or tables that may provide more insight into the upcoming "silver tsunami."
+How many roles will need to be filled as the "silver tsunami" begins to make an impact?
+Are there enough qualified, retirement-ready employees in the departments to mentor the next generation of Pewlett Hackard employees?
 The largest changes to the data are seen in looking at data summarized at the school level and the grade level and focusing on THS and the 9th grade. When looking at the THS ninth grade reading scores you now seen NaN instead of 83.72885. When looking at te THS ninth grade math scores, you now see NaN instead of 83.59002.
 
 Math Scores, updated : !
